@@ -1,0 +1,20 @@
+{% assign navy = false %}{% if site.theme_variant == 'navy' %}{% assign navy = true %}{% endif %}
+<header class="header">
+  <a class="brand" href="{{ '/' | prepend: site.baseurl }}">{% if navy %}Sungbae Yoon{% else %}<span class="brand__user">sbyoon</span><span class="brand__at">@</span><span class="brand__host">siftlab</span><span class="brand__path">:~$</span>{% endif %}</a>
+
+  <nav class="navigation">
+    <ul class="menu">
+      <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}" {% if page.url == '/' %}class="menu--active"{% endif %}>{% if navy %}About{% else %}whoami{% endif %}</a></li>
+      <li class="menu__entry"><a href="{{ '/portfolio/' | prepend: site.baseurl }}" {% if page.url contains '/portfolio' %}class="menu--active"{% endif %}>{% if navy %}Portfolio{% else %}portfolio{% endif %}</a></li>
+      <li class="menu__entry"><a href="{{ site.author.blog }}" target="_blank" rel="noopener">{% if navy %}Blog{% else %}blog{% endif %}</a></li>
+    </ul>
+  </nav>
+
+  <div class="header-right">
+    <button type="button" class="lang-switch" id="lang-switch" onclick="toggleLang()" aria-label="Switch language">
+      <span class="lang-switch__en">EN</span>
+      <span class="lang-switch__slider"></span>
+      <span class="lang-switch__ko">KR</span>
+    </button>
+  </div>
+</header>

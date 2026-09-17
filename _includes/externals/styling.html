@@ -1,0 +1,18 @@
+{% if site.theme_variant == 'navy' %}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%231e3a8a'/><text x='50' y='70' font-size='46' font-family='Georgia,serif' font-weight='700' fill='%23ffffff' text-anchor='middle'>SY</text></svg>">
+{% else %}
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230f1115'/><text x='50' y='68' font-size='58' font-family='monospace' fill='%237ee787' text-anchor='middle'>&gt;_</text></svg>">
+{% endif %}
+<link rel="stylesheet" href="{{ '/assets/vendor/normalize-css/normalize.css' | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
+{% if site.theme_variant == 'navy' %}
+<link rel="stylesheet" href="{{ '/assets/css/theme-navy.css' | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
+{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+{% if site.theme_variant == 'navy' %}
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+{% endif %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">

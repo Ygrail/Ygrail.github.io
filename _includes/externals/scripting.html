@@ -1,0 +1,49 @@
+<script>
+/* =================================================================
+   EN / KR language toggle.
+   Any element carrying both data-en and data-ko is swapped in place.
+   Choice is remembered per browser; storage may be unavailable
+   (private window, blocked site data), so every access is guarded.
+   ================================================================= */
+var currentLang = 'en';
+
+try {
+  var saved = localStorage.getItem('lang');
+  if (saved === 'en' || saved === 'ko') currentLang = saved;
+} catch (e) { /* storage unavailable — fall back to default */ }
+
+function applyLangTo(root) {
+  var els = root.querySelectorAll('[data-en][data-ko]');
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    var val = el.getAttribute('data-' + currentLang);
+    if (val === null) continue;
+    if (val.indexOf('<') !== -1) {
+      el.innerHTML = val;
+    } else if (el.children.length === 0) {
+      el.textContent = val;
+    }
+  }
+}
+
+function applyLang() {
+  var sw = document.getElementById('lang-switch');
+  if (sw) {
+    if (currentLang === 'ko') {
+      sw.classList.add('is-ko');
+    } else {
+      sw.classList.remove('is-ko');
+    }
+  }
+  document.documentElement.setAttribute('lang', currentLang);
+  applyLangTo(document);
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'en' ? 'ko' : 'en';
+  try { localStorage.setItem('lang', currentLang); } catch (e) {}
+  applyLang();
+}
+
+document.addEventListener('DOMContentLoaded', applyLang);
+</script>

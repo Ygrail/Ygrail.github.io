@@ -1,0 +1,327 @@
+@charset "UTF-8";
+
+/* =================================================================
+   Light Navy theme — loaded after main.css when
+   `theme_variant: navy` is set in _config.yml.
+
+   Same markup as the terminal theme; this file re-skins it into a
+   light, serif, paper-like page. The terminal chrome (window bar,
+   $ prompts, blinking cursor) is hidden rather than removed, so
+   switching back to `terminal` needs no markup change.
+   ================================================================= */
+
+:root {
+  --bg:          #fbfcfe;
+  --bg-soft:     #ffffff;
+  --bg-elev:     #f2f5fa;
+  --border:      #d7dfeb;
+  --border-soft: #e6ecf5;
+
+  --text:        #0f1b33;
+  --text-dim:    #46536b;
+  --text-faint:  #7d8aa0;
+
+  --accent:      #1e3a8a;
+  --accent-dim:  #4338ca;
+  --accent-soft: rgba(30, 58, 138, 0.06);
+  --blue:        #4338ca;
+  --amber:       #b45309;
+  --red:         #b91c1c;
+
+  --serif: 'Source Serif 4', Georgia, 'Pretendard Variable', Pretendard, serif;
+
+  --radius: 6px;
+}
+
+/* =Base */
+body {
+  background-image:
+    radial-gradient(900px 420px at 50% -140px, rgba(30, 58, 138, 0.06), transparent 70%);
+}
+
+a:hover { color: var(--accent-dim); }
+
+::selection { background: rgba(30, 58, 138, 0.16); color: var(--text); }
+
+/* =Header */
+.header {
+  background: rgba(251, 252, 254, 0.92);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.brand {
+  font-family: var(--serif);
+  font-size: 100%;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
+}
+.brand:hover { color: var(--accent); }
+
+.menu {
+  font-family: var(--sans);
+  font-size: 88%;
+  gap: 22px;
+}
+.menu__entry a::before { content: none; }
+.menu__entry a { color: var(--text-dim); font-weight: 500; }
+
+/* =Language switch */
+.lang-switch__slider { background: #fff; }
+.lang-switch.is-ko .lang-switch__slider { border-color: rgba(67, 56, 202, 0.45); }
+
+/* =Terminal chrome — off in this theme */
+.term {
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+.term__bar { display: none; }
+.term__body { padding: 0; }
+.term__prompt,
+.term__cursor { display: none; }
+.hero .term__line { display: none; }
+
+/* =Hero */
+.hero {
+  margin: 8px 0 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.hero__avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+}
+
+.hero__name {
+  font-family: var(--serif);
+  font-size: 215%;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+.hero__name-ko {
+  font-family: var(--sans);
+  font-weight: 400;
+  color: var(--text-faint);
+}
+
+.hero__role {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 104%;
+  color: var(--accent);
+  margin: 6px 0 4px;
+}
+
+.hero__affil { color: var(--text-dim); }
+.hero__affil a { color: var(--accent-dim); }
+
+.link-chip {
+  font-family: var(--sans);
+  font-size: 81%;
+  border-radius: 4px;
+  background: #fff;
+  border-color: var(--border);
+  color: var(--accent);
+}
+.link-chip i { color: var(--accent-dim); }
+.link-chip:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent-dim);
+}
+
+.hero__about { margin-top: 24px; }
+.hero__about::before {
+  content: 'About';
+  display: block;
+  font-family: var(--sans);
+  font-size: 76%;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 10px;
+}
+.hero__about .term__out { color: var(--text-dim); }
+
+/* =Section titles
+   The heading text is the terminal slug (e.g. "quick_info"); this theme
+   swaps in the prose label carried by data-label instead. */
+.sec__title {
+  font-size: 0;
+  margin-bottom: 18px;
+}
+.sec__title::before {
+  content: attr(data-label);
+  font-family: var(--serif);
+  font-size: 1.22rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+}
+.sec__title::after { background: var(--border); }
+
+.sub {
+  font-family: var(--sans);
+  color: var(--text-faint);
+}
+
+/* =Quick info */
+.kv { border-color: var(--border-soft); }
+.kv__row { background: #fff; border-color: var(--border-soft); }
+.kv__key {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 84%;
+  color: var(--accent);
+}
+.kv__val { color: var(--text-dim); }
+
+/* =Cards */
+.card {
+  background: #fff;
+  border-color: var(--border-soft);
+}
+.card:hover {
+  background: #fff;
+  border-color: var(--accent-dim);
+  box-shadow: 0 6px 18px -14px rgba(15, 27, 51, 0.5);
+}
+.card__title {
+  font-family: var(--serif);
+  font-size: 102%;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.card__title i { color: var(--accent-dim); }
+
+/* =Tags & badges */
+.tag {
+  font-family: var(--sans);
+  border-radius: 4px;
+  background: var(--bg-elev);
+  border-color: var(--border);
+  color: var(--text-dim);
+}
+.tag--accent {
+  color: var(--accent);
+  background: rgba(30, 58, 138, 0.07);
+  border-color: rgba(30, 58, 138, 0.25);
+}
+
+.badge {
+  font-family: var(--sans);
+  color: var(--accent);
+  background: rgba(30, 58, 138, 0.07);
+  border-color: rgba(30, 58, 138, 0.22);
+}
+.badge--muted {
+  color: var(--text-faint);
+  background: var(--bg-elev);
+  border-color: var(--border);
+}
+.badge--amber {
+  color: var(--amber);
+  background: rgba(180, 83, 9, 0.08);
+  border-color: rgba(180, 83, 9, 0.25);
+}
+
+/* =Timeline */
+.tl::before { background: var(--border); }
+.tl__item::before {
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.12);
+}
+.tl__date { font-family: var(--sans); color: var(--text-faint); }
+.tl__body strong { font-family: var(--serif); font-size: 103%; }
+.tl__sub a { color: var(--accent-dim); }
+
+/* =Entries (publications etc.) */
+.entry { padding-left: 20px; }
+.entry::before {
+  content: '—';
+  font-family: var(--serif);
+  color: var(--accent);
+}
+.entry__text strong { font-family: var(--serif); font-size: 103%; }
+.entry__venue {
+  font-family: var(--sans);
+  font-style: italic;
+  color: var(--text-faint);
+}
+.entry__venue a { color: var(--accent-dim); }
+.entry__meta a { color: var(--accent); }
+
+/* =Skills */
+.skills__label { font-family: var(--sans); }
+.skill {
+  font-family: var(--sans);
+  border-radius: 4px;
+  background: #fff;
+  border-color: var(--border);
+  color: var(--text);
+}
+.skill--accent {
+  color: var(--accent);
+  background: rgba(30, 58, 138, 0.05);
+  border-color: rgba(30, 58, 138, 0.28);
+}
+
+/* =Note */
+.note {
+  background: #fff;
+  border-color: var(--border-soft);
+  border-left: 2px solid var(--accent);
+}
+.note__mark { color: var(--accent); }
+.note__body strong { font-family: var(--serif); font-size: 100%; }
+
+/* =Portfolio */
+.pf-project { border-bottom-color: var(--border-soft); }
+.pf-project__name {
+  font-family: var(--serif);
+  font-size: 108%;
+}
+.pf-project__period { font-family: var(--sans); }
+
+/* =Page title */
+.page-title {
+  margin: 22px 0 28px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.page-title__text {
+  font-family: var(--serif);
+  text-transform: capitalize;
+}
+.page-title__text::before { content: none; }
+.page-title__subtitle { font-family: var(--sans); font-style: italic; }
+
+/* =404 */
+.notfound { padding: 30px 0 60px; }
+.notfound__text {
+  font-family: var(--serif);
+  font-size: 120%;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+}
+
+/* =Footer */
+.foot {
+  font-family: var(--sans);
+  border-top-color: var(--border-soft);
+}
+
+@media (max-width: 640px) {
+  .hero__name { font-size: 172%; }
+  .hero__avatar { width: 108px; height: 108px; }
+}

@@ -1,0 +1,27 @@
+---
+layout: page
+title: 404
+permalink: /404.html
+sitemap:
+  exclude: 'yes'
+---
+
+{% if site.theme_variant == 'navy' %}
+
+<div class="notfound">
+  <p class="notfound__text">The page you were looking for isn't here.</p>
+  <p><a href="{{ '/' | prepend: site.baseurl }}">← Back to home</a></p>
+</div>
+
+{% else %}
+
+<div class="term term--404">
+  <div class="term__bar"><span class="term__dot"></span><span class="term__dot"></span><span class="term__dot"></span><span class="term__bar-title">bash — 80x24</span></div>
+  <div class="term__body">
+    <p class="term__line"><span class="term__prompt">$</span> cat {{ page.url | prepend: site.baseurl }}</p>
+    <p class="term__out term__out--err">cat: {{ page.url }}: No such file or directory</p>
+    <p class="term__line"><span class="term__prompt">$</span> cd <a href="{{ '/' | prepend: site.baseurl }}">~</a><span class="term__cursor"></span></p>
+  </div>
+</div>
+
+{% endif %}

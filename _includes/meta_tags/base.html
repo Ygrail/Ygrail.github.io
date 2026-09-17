@@ -1,0 +1,12 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="{% if site.theme_variant == 'navy' %}#fbfcfe{% else %}#0f1115{% endif %}">
+<title>{% if page.url == '/' %}{{ site.title }} — Security Researcher{% else %}{{ page.title }}{% if page.subtitle %} · {{ page.subtitle }}{% endif %} | {{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines | truncate: 160 }}{% endif %}">
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:title" content="{{ site.author.fullname }} — Security Researcher">
+<meta property="og:description" content="{{ site.description | strip_newlines | truncate: 160 }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">

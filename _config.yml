@@ -1,0 +1,27 @@
+# Site settings
+title: Sungbae Yoon
+description: >
+  Security Researcher — Android application security, behavioral / runtime
+  analysis, and the security of mobile AI agents.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ygrail.github.io" # the base hostname & protocol for your site
+
+author:
+  fullname: Sungbae Yoon
+  fullname_ko: 윤성배
+  github: Ygrail
+  blog: https://be-a-tist.tistory.com/
+  email: sbyoon0@naver.com
+
+# Theme variant: 'terminal' (dark, monospace) or 'navy' (light, serif/navy)
+theme_variant: navy
+
+# Build settings
+highlighter: null
+markdown: kramdown
+
+exclude:
+  - README.md
+  - LICENSE
+  - vendor
