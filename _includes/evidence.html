@@ -1,0 +1,16 @@
+{%- comment -%}
+Renders a link to a supporting file (certificate, slides, report) — but only
+if that file actually exists in the repository. Drop the file into
+assets/files/ and the link appears by itself; until then nothing is rendered,
+so the page never shows a broken link.
+
+  {% include evidence.html path="/assets/files/hacktheon2024.png" en="Certificate →" ko="증빙 →" %}
+
+Optional: class="..." to override the default styling hook.
+{%- endcomment -%}
+{%- assign ev = site.static_files | where: "path", include.path | first -%}
+{%- if ev -%}
+{%- assign label_en = include.en | default: "Evidence →" -%}
+{%- assign label_ko = include.ko | default: "자료 →" -%}
+<a class="{{ include.class | default: 'evidence-link' }}" href="{{ include.path | prepend: site.baseurl }}" target="_blank" rel="noopener" data-en="{{ label_en }}" data-ko="{{ label_ko }}">{{ label_en }}</a>
+{%- endif -%}

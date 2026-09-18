@@ -245,6 +245,9 @@ hr {
 
 .term--404 { margin: 40px 0; }
 
+/* Trailing prompt under the header block */
+.term__line--tail { margin: 18px 0 0; }
+
 /* =Hero */
 .hero { margin: 26px 0 44px; }
 
@@ -575,6 +578,69 @@ html[lang="ko"] .badge {
   white-space: nowrap;
 }
 .entry__meta a { color: var(--accent); font-weight: 400; }
+
+/* =Awards */
+.awards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.award {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+  transition: border-color 0.18s, background 0.18s;
+}
+.award:hover { border-color: var(--accent-dim); background: var(--bg-elev); }
+
+a.award,
+a.award:hover { color: inherit; font-weight: 400; }
+
+.award__place {
+  flex-shrink: 0;
+  min-width: 64px;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 72%;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid rgba(126, 231, 135, 0.3);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+.award__name {
+  flex: 1;
+  min-width: 0;
+  font-size: 92%;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.award__team {
+  font-family: var(--mono);
+  font-size: 79%;
+  color: var(--text-faint);
+}
+
+/* =Evidence links (certificates, slides — rendered only when the file exists) */
+.evidence-link {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 79%;
+  font-weight: 400;
+  color: var(--accent);
+  white-space: nowrap;
+}
 
 /* =Skills */
 .skills__group { margin-bottom: 16px; }

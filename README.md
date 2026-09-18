@@ -41,6 +41,31 @@ nslookup 도메인
 
 A 레코드가 위 4개로 보이면 정상.
 
+## 증빙 자료 (수상 증명서 · 교육 자료) 올리기
+
+파일을 `assets/files/` 에 넣기만 하면 된다. `index.md`가 쓰는 `evidence.html` include는
+**해당 파일이 저장소에 실제로 있을 때만** 링크를 만들기 때문에, 파일이 없는 동안에는
+아무것도 안 보이고 깨진 링크도 생기지 않는다.
+
+지금 연결돼 있는 경로 두 개:
+
+| 넣을 파일 | 표시되는 곳 |
+| --- | --- |
+| `assets/files/hacktheon2024.png` | CTF Awards → Hacktheon 항목의 `Certificate →` |
+| `assets/files/hackhu-system-hacking.pdf` | Experience → HACKHU 항목의 `Slides →` |
+
+다른 자료를 더 붙이고 싶으면 원하는 위치에 이 한 줄을 넣는다.
+
+```liquid
+{% include evidence.html path="/assets/files/파일명.pdf" en="Report →" ko="자료 →" %}
+```
+
+권장 사항:
+
+- 증명서·상장은 PNG/JPG, 발표·교육 자료는 PDF로. 파일 하나당 10MB 이하가 무난하다 (GitHub는 100MB 초과 시 거부).
+- 공개 저장소이므로 **이름·학번·주민번호 뒷자리·서명·연락처는 가리고** 올린다.
+- 파일명은 영문 소문자와 하이픈으로 (한글 파일명은 URL이 지저분해진다).
+
 ## 로컬 미리보기
 
 Ruby가 있으면:

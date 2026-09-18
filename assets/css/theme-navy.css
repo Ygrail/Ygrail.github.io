@@ -261,6 +261,30 @@ a:hover { color: var(--accent-dim); }
 .entry__venue a { color: var(--accent-dim); }
 .entry__meta a { color: var(--accent); }
 
+/* =Awards */
+.award {
+  background: #fff;
+  border-color: var(--border-soft);
+}
+.award:hover {
+  background: #fff;
+  border-color: var(--accent-dim);
+  box-shadow: 0 6px 18px -14px rgba(15, 27, 51, 0.5);
+}
+.award__place {
+  font-family: var(--sans);
+  color: var(--accent);
+  background: rgba(30, 58, 138, 0.07);
+  border-color: rgba(30, 58, 138, 0.22);
+}
+.award__name { font-family: var(--serif); font-size: 98%; }
+.award__team { font-family: var(--sans); }
+
+.evidence-link {
+  font-family: var(--sans);
+  color: var(--accent-dim);
+}
+
 /* =Skills */
 .skills__label { font-family: var(--sans); }
 .skill {

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: portfolio
-subtitle: Research · Projects · Activities
+subtitle: Research · Projects
 permalink: /portfolio/
 ---
 
@@ -96,46 +96,6 @@ permalink: /portfolio/
       <span class="tag">MS Exchange</span>
       <span class="tag">Enterprise</span>
       <span class="tag">Vulnerability Analysis</span>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== ACTIVITIES ==================== -->
-<section class="sec" id="activities">
-  <h2 class="sec__title" data-label="CTF &amp; Activities">ctf_and_activities</h2>
-
-  <div class="pf-project" id="hackhu">
-    <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="HACKHU — System Hacking Education" data-ko="HACKHU — 시스템 해킹 교육">HACKHU — System Hacking Education</h3>
-      <span class="pf-project__period">2025</span>
-    </div>
-    <p class="pf-project__desc"
-       data-en="System hacking education at HACKHU, the Kyung Hee University hacking club — covering Linux, ELF internals, and debugger-driven exploitation fundamentals."
-       data-ko="경희대학교 해킹동아리 HACKHU에서 진행한 시스템 해킹 교육입니다. Linux, ELF 구조, 디버거 기반 익스플로잇 기초를 다뤘습니다.">
-    System hacking education at HACKHU, the Kyung Hee University hacking club — covering Linux, ELF internals, and debugger-driven exploitation fundamentals.
-    </p>
-    <div class="pf-project__tags">
-      <span class="tag">System Hacking</span>
-      <span class="tag">Linux</span>
-      <span class="tag">ELF</span>
-      <span class="tag">GDB</span>
-    </div>
-  </div>
-
-  <div class="pf-project" id="hacktheon">
-    <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="Hacktheon Sejong (Beginner) — Finalist" data-ko="Hacktheon Sejong (초급) — 본선 진출">Hacktheon Sejong (Beginner) — Finalist</h3>
-      <span class="pf-project__period">2024</span>
-    </div>
-    <p class="pf-project__desc"
-       data-en="Reached the finals of the Hacktheon Sejong beginner division with team <strong>Neophytes</strong>."
-       data-ko="Hacktheon Sejong 초급 부문에 팀 <strong>Neophytes</strong>로 참가해 본선에 진출했습니다.">
-    Reached the finals of the Hacktheon Sejong beginner division with team <strong>Neophytes</strong>.
-    </p>
-    <div class="pf-project__tags">
-      <span class="tag tag--accent">Finalist</span>
-      <span class="tag">Team: Neophytes</span>
-      <span class="tag">CTF</span>
     </div>
   </div>
 </section>
