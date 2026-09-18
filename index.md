@@ -22,7 +22,6 @@ title: Sungbae Yoon
         <div class="hero__main">
           <h1 class="hero__name">Sungbae Yoon <span class="hero__name-ko">윤성배</span></h1>
           <p class="hero__role" data-en="Security Researcher" data-ko="보안 연구자">Security Researcher</p>
-          <p class="hero__affil" data-en="Kyung Hee University · SIFTLAB · Advisor: Prof. Jeman Park" data-ko="경희대학교 · SIFTLAB · 지도교수: Prof. Jeman Park">Kyung Hee University · SIFTLAB · Advisor: Prof. Jeman Park</p>
           <div class="hero__links">
             <a class="link-chip" href="https://github.com/Ygrail" target="_blank" rel="noopener"><i class="fa fa-github"></i> GitHub</a>
             <a class="link-chip" href="https://be-a-tist.tistory.com/" target="_blank" rel="noopener"><i class="fa fa-pencil-square-o"></i> Blog</a>
@@ -46,7 +45,7 @@ title: Sungbae Yoon
       <div class="tl__date">2025 ─ Present</div>
       <div class="tl__body">
         <strong data-en="Kyung Hee University" data-ko="경희대학교">Kyung Hee University</strong>
-        <p data-en="M.S. in Convergence Security" data-ko="융합보안학과 석사과정">M.S. in Convergence Security</p>
+        <p data-en="M.S., Graduate School of Security Convergence" data-ko="융합보안대학원 석사과정">M.S., Graduate School of Security Convergence</p>
         <p class="tl__sub" data-en="SIFTLAB · Advisor: Prof. Jeman Park" data-ko="SIFTLAB · 지도교수: Prof. Jeman Park">SIFTLAB · Advisor: Prof. Jeman Park</p>
       </div>
     </div>
@@ -69,22 +68,22 @@ title: Sungbae Yoon
       <div class="tl__date">2025.03 ─ Present</div>
       <div class="tl__body">
         <strong>SIFTLAB</strong> <span class="badge" data-en="Graduate Researcher" data-ko="석사 연구원">Graduate Researcher</span>
-        <p data-en="Kyung Hee University · Dept. of Convergence Security" data-ko="경희대학교 · 융합보안학과">Kyung Hee University · Dept. of Convergence Security</p>
+        <p data-en="Kyung Hee University · Graduate School of Security Convergence" data-ko="경희대학교 · 융합보안대학원">Kyung Hee University · Graduate School of Security Convergence</p>
 
         <div class="entry">
           <div class="entry__text" data-en="On-device runtime detection of inconsistent Android application behavior (VeneerTrace)" data-ko="안드로이드 애플리케이션의 선언·실제 동작 불일치를 온디바이스 런타임에서 탐지 (VeneerTrace)">On-device runtime detection of inconsistent Android application behavior (VeneerTrace)</div>
           <span class="entry__meta"><a href="{{ '/portfolio/#veneertrace' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
         </div>
         <div class="entry">
-          <div class="entry__text" data-en="Security of mobile AI agents — inducing malfunction via accessibility label and visual information manipulation" data-ko="모바일 AI 에이전트 보안 — 접근성 라벨·시각 정보 조작을 통한 오작동 유도">Security of mobile AI agents — inducing malfunction via accessibility label and visual information manipulation</div>
+          <div class="entry__text" data-en="Security of mobile AI agents — misleading agents via accessibility labels and visual deception" data-ko="모바일 AI 에이전트 보안 — 접근성 라벨·시각 정보 조작을 통한 오작동 유도">Security of mobile AI agents — misleading agents via accessibility labels and visual deception</div>
           <span class="entry__meta"><a href="{{ '/portfolio/#ai-agent' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
         </div>
         <div class="entry">
-          <div class="entry__text" data-en="Stacktrace tracing techniques for analyzing multi-threaded Android applications" data-ko="멀티 스레드 환경 안드로이드 애플리케이션 분석을 위한 Stacktrace 추적 기법">Stacktrace tracing techniques for analyzing multi-threaded Android applications</div>
+          <div class="entry__text" data-en="Stacktrace tracking techniques for multi-threaded Android application analysis" data-ko="멀티 스레드 환경 안드로이드 애플리케이션 분석을 위한 Stacktrace 추적 기법">Stacktrace tracking techniques for multi-threaded Android application analysis</div>
           <span class="entry__meta"><a href="{{ '/portfolio/#stacktrace' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
         </div>
         <div class="entry">
-          <div class="entry__text" data-en="Microsoft Exchange Server vulnerability analysis" data-ko="Microsoft Exchange Server 취약점 분석">Microsoft Exchange Server vulnerability analysis</div>
+          <div class="entry__text" data-en="Microsoft Exchange Server vulnerability research — 1-day exploit development and 0-day research" data-ko="Microsoft Exchange Server 취약점 연구 — 1-day 익스플로잇 개발 및 0-day 연구">Microsoft Exchange Server vulnerability research — 1-day exploit development and 0-day research</div>
           <span class="entry__meta"><a href="{{ '/portfolio/#ms-exchange' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
         </div>
       </div>
@@ -93,9 +92,10 @@ title: Sungbae Yoon
     <div class="tl__item">
       <div class="tl__date">2025</div>
       <div class="tl__body">
-        <strong>HACKHU</strong> <span class="badge badge--muted" data-en="KHU Hacking Club" data-ko="경희대학교 해킹동아리">KHU Hacking Club</span>
+        <strong>HACKHU</strong> <span class="badge" data-en="Instructor" data-ko="교육 진행">Instructor</span>
+        <p data-en="Kyung Hee University Hacking Club" data-ko="경희대학교 해킹동아리">Kyung Hee University Hacking Club</p>
         <div class="entry">
-          <div class="entry__text" data-en="System hacking education — Linux, ELF internals, and debugger-driven exploitation" data-ko="시스템 해킹 교육 — Linux, ELF 구조, 디버거 기반 익스플로잇">System hacking education — Linux, ELF internals, and debugger-driven exploitation</div>
+          <div class="entry__text" data-en="Taught system hacking — the fundamentals and internals of memory corruption vulnerabilities, exploited hands-on by the members, followed by wargame sessions and walkthroughs to build practical skill" data-ko="시스템 해킹 교육 진행 — 다양한 메모리 취약점의 기초와 원리를 직접 익스플로잇해 보며 익히도록 가르치고, 워게임 풀이와 해설 세션으로 실전 감각을 기르도록 지도">Taught system hacking — the fundamentals and internals of memory corruption vulnerabilities, exploited hands-on by the members, followed by wargame sessions and walkthroughs to build practical skill</div>
           <span class="entry__meta">{% include evidence.html path="/assets/files/hackhu-system-hacking.pdf" en="Slides →" ko="자료 →" %}</span>
         </div>
       </div>
@@ -119,7 +119,7 @@ title: Sungbae Yoon
 
   <div class="entry">
     <div class="entry__text">
-      <strong data-en="Inducing Malfunction in Android AI Agents via Accessibility Label and Visual Information Manipulation" data-ko="접근성 라벨·시각 정보 조작을 통한 안드로이드 AI 에이전트 오작동 유도 기법">Inducing Malfunction in Android AI Agents via Accessibility Label and Visual Information Manipulation</strong>
+      <strong data-en="Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents" data-ko="접근성 라벨·시각 정보 조작을 통한 안드로이드 AI 에이전트 오작동 유도 기법">Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents</strong>
       <span class="entry__venue">CISC-W'26</span>
     </div>
     <div class="entry__meta"><span class="badge" data-en="Submitted" data-ko="투고">Submitted</span></div>
@@ -129,7 +129,7 @@ title: Sungbae Yoon
 
   <div class="entry">
     <div class="entry__text">
-      <strong data-en="A Study on Stacktrace Tracing Techniques for Analyzing Multi-threaded Android Applications" data-ko="멀티 스레드 환경 안드로이드 어플리케이션 분석을 위한 Stacktrace 추적 기법 연구">A Study on Stacktrace Tracing Techniques for Analyzing Multi-threaded Android Applications</strong>
+      <strong data-en="A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis" data-ko="멀티 스레드 환경 안드로이드 어플리케이션 분석을 위한 Stacktrace 추적 기법 연구">A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis</strong>
       <span class="entry__venue">CISC-W'25</span>
     </div>
     <div class="entry__meta"><span class="badge badge--muted">2025</span></div>

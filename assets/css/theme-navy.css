@@ -116,7 +116,7 @@ a:hover { color: var(--accent-dim); }
   font-style: italic;
   font-size: 104%;
   color: var(--accent);
-  margin: 6px 0 4px;
+  margin: 6px 0 16px;
 }
 
 .hero__affil { color: var(--text-dim); }

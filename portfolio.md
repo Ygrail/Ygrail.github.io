@@ -40,7 +40,7 @@ permalink: /portfolio/
   <!-- ===== AI Agent manipulation ===== -->
   <div class="pf-project" id="ai-agent">
     <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="Inducing Malfunction in Android AI Agents" data-ko="안드로이드 AI 에이전트 오작동 유도 기법">Inducing Malfunction in Android AI Agents</h3>
+      <h3 class="pf-project__name" data-en="Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents" data-ko="안드로이드 AI 에이전트 오작동 유도 기법">Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents</h3>
       <span class="pf-project__period">2025 ~ 2026</span>
     </div>
     <p class="pf-project__desc"
@@ -60,7 +60,7 @@ permalink: /portfolio/
   <!-- ===== Stacktrace tracing ===== -->
   <div class="pf-project" id="stacktrace">
     <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="Stacktrace Tracing for Multi-threaded Android Applications" data-ko="멀티 스레드 환경 안드로이드 앱 Stacktrace 추적 기법">Stacktrace Tracing for Multi-threaded Android Applications</h3>
+      <h3 class="pf-project__name" data-en="A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis" data-ko="멀티 스레드 환경 안드로이드 앱 Stacktrace 추적 기법">A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis</h3>
       <span class="pf-project__period">2025</span>
     </div>
     <p class="pf-project__desc"
@@ -84,18 +84,20 @@ permalink: /portfolio/
 
   <div class="pf-project" id="ms-exchange">
     <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="Microsoft Exchange Server Vulnerability Analysis" data-ko="Microsoft Exchange Server 취약점 분석">Microsoft Exchange Server Vulnerability Analysis</h3>
+      <h3 class="pf-project__name" data-en="Microsoft Exchange Server Vulnerability Research" data-ko="Microsoft Exchange Server 취약점 연구">Microsoft Exchange Server Vulnerability Research</h3>
       <span class="pf-project__period">2026</span>
     </div>
     <p class="pf-project__desc"
-       data-en="Vulnerability analysis targeting Microsoft Exchange Server, a mail and collaboration backbone still widely operated on-premise in enterprise environments."
-       data-ko="엔터프라이즈 환경에서 여전히 온프레미스로 널리 운영되는 메일·협업 기반 서비스인 Microsoft Exchange Server를 대상으로 한 취약점 분석 프로젝트입니다.">
-    Vulnerability analysis targeting Microsoft Exchange Server, a mail and collaboration backbone still widely operated on-premise in enterprise environments.
+       data-en="Vulnerability research on Microsoft Exchange Server, a mail and collaboration backbone still widely operated on-premise in enterprise environments. A full Exchange test environment was built from scratch, <strong>1-day exploits</strong> were developed against it to validate the attack surface end to end, and that understanding was carried into <strong>0-day vulnerability research</strong>."
+       data-ko="엔터프라이즈 환경에서 여전히 온프레미스로 널리 운영되는 메일·협업 기반 서비스인 Microsoft Exchange Server를 대상으로 한 취약점 연구입니다. Exchange 분석 환경을 직접 구축한 뒤 <strong>1-day 익스플로잇</strong>을 개발해 공격 표면을 처음부터 끝까지 검증했고, 그 과정에서 확보한 이해를 바탕으로 <strong>0-day 취약점 연구</strong>를 진행했습니다.">
+    Vulnerability research on Microsoft Exchange Server, a mail and collaboration backbone still widely operated on-premise in enterprise environments. A full Exchange test environment was built from scratch, <strong>1-day exploits</strong> were developed against it to validate the attack surface end to end, and that understanding was carried into <strong>0-day vulnerability research</strong>.
     </p>
     <div class="pf-project__tags">
       <span class="tag">MS Exchange</span>
       <span class="tag">Enterprise</span>
-      <span class="tag">Vulnerability Analysis</span>
+      <span class="tag">Exploit Development</span>
+      <span class="tag">1-day</span>
+      <span class="tag">0-day</span>
     </div>
   </div>
 </section>

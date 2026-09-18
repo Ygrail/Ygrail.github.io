@@ -290,7 +290,7 @@ hr {
   font-family: var(--mono);
   font-size: 92%;
   color: var(--accent);
-  margin: 8px 0 4px;
+  margin: 8px 0 15px;
 }
 
 .hero__affil {
