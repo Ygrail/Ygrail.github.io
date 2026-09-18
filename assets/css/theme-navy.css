@@ -285,6 +285,12 @@ a:hover { color: var(--accent-dim); }
   color: var(--accent-dim);
 }
 
+.entry__venue .venue-pdf {
+  font-family: var(--sans);
+  font-style: normal;
+  color: var(--accent-dim);
+}
+
 /* =Skills */
 .skills__label { font-family: var(--sans); }
 .skill {

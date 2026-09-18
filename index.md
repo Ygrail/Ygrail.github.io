@@ -46,7 +46,7 @@ title: Sungbae Yoon
       <div class="tl__body">
         <strong data-en="Kyung Hee University" data-ko="경희대학교">Kyung Hee University</strong>
         <p data-en="M.S., Graduate School of Security Convergence" data-ko="융합보안대학원 석사과정">M.S., Graduate School of Security Convergence</p>
-        <p class="tl__sub" data-en="SIFTLAB · Advisor: Prof. Jeman Park" data-ko="SIFTLAB · 지도교수: Prof. Jeman Park">SIFTLAB · Advisor: Prof. Jeman Park</p>
+        <p class="tl__sub" data-en="SIFTLAB · Advisor: Prof. Jeman Park" data-ko="SIFTLAB · 지도교수: 박제만">SIFTLAB · Advisor: Prof. Jeman Park</p>
       </div>
     </div>
     <div class="tl__item">
@@ -130,7 +130,7 @@ title: Sungbae Yoon
   <div class="entry">
     <div class="entry__text">
       <strong data-en="A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis" data-ko="멀티 스레드 환경 안드로이드 어플리케이션 분석을 위한 Stacktrace 추적 기법 연구">A Stacktrace Tracking Technique for Multi-Threaded Android Application Analysis</strong>
-      <span class="entry__venue">CISC-W'25</span>
+      <span class="entry__venue">CISC-W'25{% include evidence.html path="/assets/files/CISC-W'25.pdf" en="PDF" ko="PDF" sep=" · " class="venue-pdf" %}</span>
     </div>
     <div class="entry__meta"><span class="badge badge--muted">2025</span></div>
   </div>

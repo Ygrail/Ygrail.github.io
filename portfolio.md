@@ -74,6 +74,7 @@ permalink: /portfolio/
       <span class="tag">Multi-threading</span>
       <span class="tag">Stacktrace</span>
       <span class="tag">Dynamic Analysis</span>
+      {% include evidence.html path="/assets/files/CISC-W'25.pdf" en="Paper →" ko="논문 →" %}
     </div>
   </div>
 </section>

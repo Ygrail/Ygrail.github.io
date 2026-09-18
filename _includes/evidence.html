@@ -6,11 +6,16 @@ so the page never shows a broken link.
 
   {% include evidence.html path="/assets/files/hacktheon2024.png" en="Certificate →" ko="증빙 →" %}
 
-Optional: class="..." to override the default styling hook.
+Optional:
+  class="..."  styling hook (default: evidence-link)
+  sep="..."    text printed right before the link, e.g. " · ". It is part of
+               the conditional output, so no dangling separator is left
+               behind when the file is absent.
 {%- endcomment -%}
 {%- assign ev = site.static_files | where: "path", include.path | first -%}
 {%- if ev -%}
 {%- assign label_en = include.en | default: "Evidence →" -%}
 {%- assign label_ko = include.ko | default: "자료 →" -%}
+{{- include.sep -}}
 <a class="{{ include.class | default: 'evidence-link' }}" href="{{ include.path | prepend: site.baseurl }}" target="_blank" rel="noopener" data-en="{{ label_en }}" data-ko="{{ label_ko }}">{{ label_en }}</a>
 {%- endif -%}

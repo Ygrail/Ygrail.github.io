@@ -633,6 +633,11 @@ a.award:hover { color: inherit; font-weight: 400; }
 }
 
 /* =Evidence links (certificates, slides — rendered only when the file exists) */
+.entry__venue .venue-pdf {
+  font-weight: 500;
+  color: var(--accent);
+}
+
 .evidence-link {
   margin-left: auto;
   font-family: var(--mono);
