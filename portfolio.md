@@ -44,16 +44,17 @@ permalink: /portfolio/
       <span class="pf-project__period">2025 ~ 2026</span>
     </div>
     <p class="pf-project__desc"
-       data-en="Mobile AI agents drive applications through the same accessibility labels and on-screen visuals that the UI exposes to users. This work looks at what happens when that channel is manipulated — accessibility labels and visual information are altered to steer an agent into acting against the user's intent. Submitted to <strong>CISC-W'26</strong>."
-       data-ko="모바일 AI 에이전트는 사용자가 보는 화면과 동일한 접근성 라벨·시각 정보를 근거로 앱을 조작합니다. 이 연구는 그 입력 채널이 조작되었을 때 어떤 일이 벌어지는지를 다룹니다. 접근성 라벨과 시각 정보를 변조해 에이전트가 사용자의 의도와 다르게 동작하도록 유도하는 기법을 정리했으며, <strong>CISC-W'26</strong>에 투고했습니다.">
-    Mobile AI agents drive applications through the same accessibility labels and on-screen visuals that the UI exposes to users. This work looks at what happens when that channel is manipulated — accessibility labels and visual information are altered to steer an agent into acting against the user's intent. Submitted to <strong>CISC-W'26</strong>.
+       data-en="Mobile AI agents drive applications through the same accessibility labels and on-screen visuals that the UI exposes to users. This work looks at what happens when that channel is manipulated — accessibility labels and visual information are altered to steer an agent into acting against the user's intent. Published at <strong>CISC-W'26</strong>."
+       data-ko="모바일 AI 에이전트는 사용자가 보는 화면과 동일한 접근성 라벨·시각 정보를 근거로 앱을 조작합니다. 이 연구는 그 입력 채널이 조작되었을 때 어떤 일이 벌어지는지를 다룹니다. 접근성 라벨과 시각 정보를 변조해 에이전트가 사용자의 의도와 다르게 동작하도록 유도하는 기법을 정리했으며, <strong>CISC-W'26</strong>에 게재했습니다.">
+    Mobile AI agents drive applications through the same accessibility labels and on-screen visuals that the UI exposes to users. This work looks at what happens when that channel is manipulated — accessibility labels and visual information are altered to steer an agent into acting against the user's intent. Published at <strong>CISC-W'26</strong>.
     </p>
     <div class="pf-project__tags">
-      <span class="tag tag--accent">CISC-W'26 (submitted)</span>
+      <span class="tag tag--accent">CISC-W'26</span>
       <span class="tag">AI Agent Security</span>
       <span class="tag">Accessibility Label</span>
       <span class="tag">Mobile AI Agents</span>
       <span class="tag">Agent–Application Interaction</span>
+      {% include evidence.html path="/assets/files/CISC-W'26.pdf" en="Paper →" ko="논문 →" %}
     </div>
   </div>
 

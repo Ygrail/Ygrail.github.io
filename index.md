@@ -107,7 +107,7 @@ title: Sungbae Yoon
 <section class="sec" id="publications">
   <h2 class="sec__title" data-label="Publications">publications</h2>
 
-  <h3 class="sub" data-en="In progress / Submitted" data-ko="진행 중 / 투고">In progress / Submitted</h3>
+  <h3 class="sub" data-en="In progress" data-ko="진행 중">In progress</h3>
 
   <div class="entry">
     <div class="entry__text">
@@ -117,15 +117,15 @@ title: Sungbae Yoon
     <div class="entry__meta"><span class="badge badge--amber" data-en="In Progress" data-ko="진행 중">In Progress</span></div>
   </div>
 
+  <h3 class="sub" data-en="Published" data-ko="게재">Published</h3>
+
   <div class="entry">
     <div class="entry__text">
       <strong data-en="Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents" data-ko="접근성 라벨·시각 정보 조작을 통한 안드로이드 AI 에이전트 오작동 유도 기법">Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents</strong>
-      <span class="entry__venue">CISC-W'26</span>
+      <span class="entry__venue">CISC-W'26{% include evidence.html path="/assets/files/CISC-W'26.pdf" en="PDF" ko="PDF" sep=" · " class="venue-pdf" %}</span>
     </div>
-    <div class="entry__meta"><span class="badge" data-en="Submitted" data-ko="투고">Submitted</span></div>
+    <div class="entry__meta"><span class="badge badge--muted">2026</span></div>
   </div>
-
-  <h3 class="sub" data-en="Published" data-ko="게재">Published</h3>
 
   <div class="entry">
     <div class="entry__text">
