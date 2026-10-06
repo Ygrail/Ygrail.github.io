@@ -41,7 +41,7 @@ permalink: /portfolio/
   <div class="pf-project" id="ai-agent">
     <div class="pf-project__header">
       <h3 class="pf-project__name" data-en="Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents" data-ko="안드로이드 AI 에이전트 오작동 유도 기법">Exploiting Accessibility Labels and Visual Deception to Mislead Android AI Agents</h3>
-      <span class="pf-project__period">2025 ~ 2026</span>
+      <span class="pf-project__period">2026</span>
     </div>
     <p class="pf-project__desc"
        data-en="Mobile AI agents drive applications through the same accessibility labels and on-screen visuals that the UI exposes to users. This work looks at what happens when that channel is manipulated — accessibility labels and visual information are altered to steer an agent into acting against the user's intent. Published at <strong>CISC-W'26</strong>."
