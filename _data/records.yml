@@ -21,11 +21,6 @@
   photos:
     - badminton_100.png
 
-- title: "Baekjoon: All Basic Algorithm Problems Cleared"
-  title_ko: "백준 알고리즘 기초 올클리어"
-  photos:
-    - baekjoon_basic.png
-
 - title: "Baekjoon: Reached Platinum"
   title_ko: "백준 플래티넘 달성"
   photos:
@@ -41,8 +36,8 @@
   photos:
     - brawlstars_ultra_8.jpg
 
-- title: "Duolingo: 100-Day Streak"
-  title_ko: "듀오링고 100일 연속"
+- title: "Duolingo: 100-Day Learning Streak"
+  title_ko: "듀오링고 100일 연속 학습"
   photos:
     - duolingo_100.jpg
 
@@ -61,32 +56,32 @@
   photos:
     - grade_f.jpg
 
-- title: "Mock Exam: Perfect Score in Life Science II"
-  title_ko: "모의고사 생명과학2 만점"
+- title: "Education Office Mock Exam: Perfect Score in Life Science II"
+  title_ko: "교육청 모의고사 생명과학2 만점"
   photos:
-    - life_max_score.jpg
+    - life_science_max_score.jpg
 
 - title: "Poker: Four of a Kind"
   title_ko: "포커 포카드"
   photos:
     - poker_four_of_a_kind.jpg
 
-- title: "Sudden Attack Sniper Master"
-  title_ko: "서든어택 스나이퍼 마스터"
+- title: "Sudden Attack: Sniper Master"
+  title_ko: "서든어택 저격 마스터"
   photos:
     - sa_sniper_master.png
 
-- title: "Sudoku High Score"
-  title_ko: "스도쿠 최고 점수"
+- title: "Sudoku: 45,000 Points"
+  title_ko: "스도쿠 45000점"
   photos:
     - sudoku_max_score.jpg
 
-- title: "Sutda: 3·7 Ttaengjabi"
-  title_ko: "섯다 3·7 땡잡이"
+- title: "Sutda: Won with 3·7 Ttaengjabi"
+  title_ko: "섯다 3·7 땡잡이 승"
   photos:
     - sutda_37.jpg
 
-- title: "Sutda: 4·7 Amhaeng-eosa"
-  title_ko: "섯다 4·7 암행어사"
+- title: "Sutda: Won with 4·7 Amhaeng-eosa"
+  title_ko: "섯다 4·7 암행어사 승"
   photos:
     - sutda_47.jpg
