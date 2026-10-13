@@ -2,6 +2,8 @@
 /* =================================================================
    EN / KR language toggle.
    Any element carrying both data-en and data-ko is swapped in place.
+   data-label-en / data-label-ko do the same for data-label, which the
+   navy theme draws as the section heading.
    Choice is remembered per browser; storage may be unavailable
    (private window, blocked site data), so every access is guarded.
    ================================================================= */
@@ -23,6 +25,12 @@ function applyLangTo(root) {
     } else if (el.children.length === 0) {
       el.textContent = val;
     }
+  }
+
+  var labeled = root.querySelectorAll('[data-label-en][data-label-ko]');
+  for (var j = 0; j < labeled.length; j++) {
+    var label = labeled[j].getAttribute('data-label-' + currentLang);
+    if (label !== null) labeled[j].setAttribute('data-label', label);
   }
 }
 

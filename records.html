@@ -1,6 +1,7 @@
 ---
 layout: page
 title: records
+title_ko: 기록
 permalink: /records/
 ---
 
@@ -11,7 +12,7 @@ permalink: /records/
 <div id="records-content">
 
 <section class="sec" id="records">
-  <h2 class="sec__title" data-label="Records">records</h2>
+  <h2 class="sec__title" data-label="Just for Fun" data-label-en="Just for Fun" data-label-ko="재미로만 봐주세요" data-en="just_for_fun" data-ko="재미로만 봐주세요">just_for_fun</h2>
 {% assign records = site.data.records %}
 {% if records and records.size > 0 %}
   {% for record in records %}

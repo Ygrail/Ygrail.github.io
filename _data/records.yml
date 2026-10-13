@@ -5,83 +5,88 @@
 # ("/"로 시작하는 경로나 https:// 주소를 적으면 그대로 사용합니다.)
 #
 # - title: 제목                  (필수)
-#   title_ko: 한글 제목          (선택 — 적으면 KR 전환 시 이 제목으로 바뀜)
+#   title_ko: 한글 제목          (KR 전환 시 표시 — 없으면 title이 그대로 나옴)
 #   photos:
 #     - 사진1.jpg
 #     - 사진2.jpg
 
-- title: "apple 100"
+
+- title: "Apple Game 100"
+  title_ko: "사과 게임 100점"
   photos:
     - apple_100.jpg
 
-- title: "badminton 100"
+- title: "Badminton: 100 Wins in 100 Games"
+  title_ko: "배드민턴 100전 100승"
   photos:
     - badminton_100.png
 
-- title: "baekjoon basic"
+- title: "Baekjoon: All Basic Algorithm Problems Cleared"
+  title_ko: "백준 알고리즘 기초 올클리어"
   photos:
     - baekjoon_basic.png
 
-- title: "baekjoon platinum"
+- title: "Baekjoon: Reached Platinum"
+  title_ko: "백준 플래티넘 달성"
   photos:
     - baekjoon_platinum.jpg
 
-- title: "bowling 257"
+- title: "Bowling 257"
+  title_ko: "볼링 257점"
   photos:
     - bowling_257.jpg
 
-- title: "brawlstars ultra 8"
+- title: "Brawl Stars: 8 Ultra Chaos Drops"
+  title_ko: "브롤스타즈 카오스 드롭 울트라 8개"
   photos:
     - brawlstars_ultra_8.jpg
 
-- title: "duolingo 100"
+- title: "Duolingo: 100-Day Streak"
+  title_ko: "듀오링고 100일 연속"
   photos:
     - duolingo_100.jpg
 
-- title: "gomoku 1"
+- title: "Gomoku: 1-dan"
+  title_ko: "오목 1단"
   photos:
-    - gomoku_1.png
+    - gomoku_shodan.png
 
-- title: "gomoku with ai"
+- title: "Gomoku: Beat the AI"
+  title_ko: "AI 상대로 오목 승리"
   photos:
     - gomoku_with_ai.jpg
 
-- title: "grade f"
+- title: "Grade F"
+  title_ko: "F학점"
   photos:
     - grade_f.jpg
 
-- title: "life grade 1"
-  photos:
-    - life_grade_1.jpg
-
-- title: "life max score"
+- title: "Mock Exam: Perfect Score in Life Science II"
+  title_ko: "모의고사 생명과학2 만점"
   photos:
     - life_max_score.jpg
 
-- title: "math max score"
-  photos:
-    - math_max_score.jpg
-
-- title: "military"
-  photos:
-    - military.jpg
-
-- title: "poker four of a kind"
+- title: "Poker: Four of a Kind"
+  title_ko: "포커 포카드"
   photos:
     - poker_four_of_a_kind.jpg
 
-- title: "sa sniper master"
+- title: "Sudden Attack Sniper Master"
+  title_ko: "서든어택 스나이퍼 마스터"
   photos:
     - sa_sniper_master.png
 
-- title: "sudoku max score"
+- title: "Sudoku High Score"
+  title_ko: "스도쿠 최고 점수"
   photos:
     - sudoku_max_score.jpg
 
-- title: "sutda 37"
+- title: "Sutda: 3·7 Ttaengjabi"
+  title_ko: "섯다 3·7 땡잡이"
   photos:
     - sutda_37.jpg
 
-- title: "sutda 47"
+- title: "Sutda: 4·7 Amhaeng-eosa"
+  title_ko: "섯다 4·7 암행어사"
   photos:
     - sutda_47.jpg
