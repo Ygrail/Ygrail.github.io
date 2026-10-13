@@ -11,11 +11,6 @@
 #     - 사진2.jpg
 
 
-- title: "Apple Game 100"
-  title_ko: "사과 게임 100점"
-  photos:
-    - apple_100.jpg
-
 - title: "Badminton: 100 Wins in 100 Games"
   title_ko: "배드민턴 100전 100승"
   photos:
@@ -26,6 +21,11 @@
   photos:
     - baekjoon_platinum.jpg
 
+- title: "Biking Up Namsan"
+  title_ko: "자전거로 남산 등반"
+  photos:
+    - bike_on_namsan.jpg
+
 - title: "Bowling 257"
   title_ko: "볼링 257점"
   photos:
@@ -35,11 +35,6 @@
   title_ko: "브롤스타즈 카오스 드롭 울트라 8개"
   photos:
     - brawlstars_ultra_8.jpg
-
-- title: "Duolingo: 100-Day Learning Streak"
-  title_ko: "듀오링고 100일 연속 학습"
-  photos:
-    - duolingo_100.jpg
 
 - title: "Gomoku: 1-dan"
   title_ko: "오목 1단"
@@ -67,7 +62,7 @@
     - poker_four_of_a_kind.jpg
 
 - title: "Sudden Attack: Sniper Master"
-  title_ko: "서든어택 저격 마스터"
+  title_ko: "서든어택 저격소총 마스터"
   photos:
     - sa_sniper_master.png
 
