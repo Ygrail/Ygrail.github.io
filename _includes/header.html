@@ -6,6 +6,7 @@
     <ul class="menu">
       <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}" {% if page.url == '/' %}class="menu--active"{% endif %}>{% if navy %}About{% else %}whoami{% endif %}</a></li>
       <li class="menu__entry"><a href="{{ '/portfolio/' | prepend: site.baseurl }}" {% if page.url contains '/portfolio' %}class="menu--active"{% endif %}>{% if navy %}Portfolio{% else %}portfolio{% endif %}</a></li>
+      <li class="menu__entry"><a href="{{ '/records/' | prepend: site.baseurl }}" {% if page.url contains '/records' %}class="menu--active"{% endif %}>{% if navy %}Records{% else %}records{% endif %}</a></li>
       <li class="menu__entry"><a href="{{ site.author.blog }}" target="_blank" rel="noopener">{% if navy %}Blog{% else %}blog{% endif %}</a></li>
     </ul>
   </nav>

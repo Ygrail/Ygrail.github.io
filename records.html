@@ -1,0 +1,46 @@
+---
+layout: page
+title: records
+permalink: /records/
+---
+
+<!--
+  항목은 _data/records.yml 에서 추가합니다. 이 파일은 고칠 필요가 없습니다.
+-->
+
+<div id="records-content">
+
+<section class="sec" id="records">
+  <h2 class="sec__title" data-label="Records">records</h2>
+{% assign records = site.data.records %}
+{% if records and records.size > 0 %}
+  {% for record in records %}
+  <div class="pf-project record">
+    <div class="pf-project__header">
+      <h3 class="pf-project__name"{% if record.title_ko %} data-en="{{ record.title | escape }}" data-ko="{{ record.title_ko | escape }}"{% endif %}>{{ record.title | escape }}</h3>
+    </div>
+    {% if record.photos and record.photos.size > 0 %}
+    <div class="record__photos">
+      {% for photo in record.photos %}
+        {% assign first_char = photo | slice: 0 %}
+        {% if photo contains '://' %}
+          {% assign src = photo %}
+        {% elsif first_char == '/' %}
+          {% assign src = photo | prepend: site.baseurl %}
+        {% else %}
+          {% assign src = photo | prepend: '/assets/img/records/' | prepend: site.baseurl %}
+        {% endif %}
+      <a class="record__photo" href="{{ src }}" target="_blank" rel="noopener">
+        <img src="{{ src }}" alt="{{ record.title | escape }}" loading="lazy" decoding="async">
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+{% else %}
+  <p class="record__empty" data-en="No records yet." data-ko="아직 기록이 없습니다.">No records yet.</p>
+{% endif %}
+</section>
+
+</div>

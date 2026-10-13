@@ -323,6 +323,9 @@ a:hover { color: var(--accent-dim); }
 }
 .pf-project__period { font-family: var(--sans); }
 
+/* =Records */
+.record__empty { font-family: var(--serif); font-style: italic; }
+
 /* =Page title */
 .page-title {
   margin: 22px 0 28px;

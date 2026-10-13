@@ -749,6 +749,31 @@ a.award:hover { color: inherit; font-weight: 400; }
 
 .pf-project__tags { display: flex; flex-wrap: wrap; gap: 6px; }
 
+/* =Records — entries reuse the .pf-project markup; only the photo strip is new */
+.record__photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.record__photo { display: block; line-height: 0; }
+.record__photo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 360px;
+  margin: 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-soft);
+  background: var(--bg-elev);
+  transition: border-color .15s ease;
+}
+.record__photo:hover img { border-color: var(--accent); }
+
+.record__empty { margin: 0; font-size: 89%; color: var(--text-faint); }
+
 /* =Page titles */
 .page-title { margin: 26px 0 30px; }
 .page-title__text {
@@ -815,6 +840,8 @@ a.award:hover { color: inherit; font-weight: 400; }
   .entry__meta { margin-left: 0; }
 
   .pf-project__header { flex-direction: column; gap: 3px; }
+
+  .record__photo img { max-height: none; }
 }
 
 /* =Print */
