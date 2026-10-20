@@ -71,10 +71,6 @@ title: Sungbae Yoon
         <p data-en="Kyung Hee University · Graduate School of Security Convergence" data-ko="경희대학교 · 융합보안대학원">Kyung Hee University · Graduate School of Security Convergence</p>
 
         <div class="entry">
-          <div class="entry__text" data-en="On-device runtime detection of inconsistent Android application behavior (VeneerTrace)" data-ko="안드로이드 애플리케이션의 선언·실제 동작 불일치를 온디바이스 런타임에서 탐지 (VeneerTrace)">On-device runtime detection of inconsistent Android application behavior (VeneerTrace)</div>
-          <span class="entry__meta"><a href="{{ '/portfolio/#veneertrace' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
-        </div>
-        <div class="entry">
           <div class="entry__text" data-en="Security of mobile AI agents — misleading agents via accessibility labels and visual deception" data-ko="모바일 AI 에이전트 보안 — 접근성 라벨·시각 정보 조작을 통한 오작동 유도">Security of mobile AI agents — misleading agents via accessibility labels and visual deception</div>
           <span class="entry__meta"><a href="{{ '/portfolio/#ai-agent' | prepend: site.baseurl }}" data-en="Details →" data-ko="자세히 →">Details →</a></span>
         </div>
@@ -106,16 +102,6 @@ title: Sungbae Yoon
 <!-- ==================== PUBLICATIONS ==================== -->
 <section class="sec" id="publications">
   <h2 class="sec__title" data-label="Publications">publications</h2>
-
-  <h3 class="sub" data-en="In progress" data-ko="진행 중">In progress</h3>
-
-  <div class="entry">
-    <div class="entry__text">
-      <strong>Actions Speak Louder Than Words: On-Device Runtime Detection of Inconsistent Android Behavior with VeneerTrace</strong>
-      <span class="entry__venue">IEEE Transactions on Mobile Computing</span>
-    </div>
-    <div class="entry__meta"><span class="badge badge--amber" data-en="In Progress" data-ko="진행 중">In Progress</span></div>
-  </div>
 
   <h3 class="sub" data-en="Published" data-ko="게재">Published</h3>
 

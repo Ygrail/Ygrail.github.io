@@ -17,26 +17,6 @@ permalink: /portfolio/
 <section class="sec" id="research">
   <h2 class="sec__title" data-label="Research">research</h2>
 
-  <!-- ===== VeneerTrace ===== -->
-  <div class="pf-project" id="veneertrace">
-    <div class="pf-project__header">
-      <h3 class="pf-project__name" data-en="VeneerTrace — On-Device Runtime Detection of Inconsistent Android Behavior" data-ko="VeneerTrace — 온디바이스 런타임 안드로이드 이상 행위 탐지">VeneerTrace — On-Device Runtime Detection of Inconsistent Android Behavior</h3>
-      <span class="pf-project__period">2025 ~</span>
-    </div>
-    <p class="pf-project__desc"
-       data-en="Runtime analysis work on Android applications whose observable behavior diverges from what they declare. The approach detects that inconsistency on the device itself at runtime, rather than from static artifacts alone. Manuscript <strong>in progress</strong> for IEEE Transactions on Mobile Computing: <em>“Actions Speak Louder Than Words: On-Device Runtime Detection of Inconsistent Android Behavior with VeneerTrace.”</em>"
-       data-ko="선언된 동작과 실제로 관측되는 동작이 어긋나는 안드로이드 애플리케이션을 대상으로 한 런타임 분석 연구입니다. 정적 정보에만 의존하지 않고, 기기 위에서 런타임에 그 불일치를 탐지하는 방식을 다룹니다. <strong>IEEE Transactions on Mobile Computing</strong>에 <em>“Actions Speak Louder Than Words: On-Device Runtime Detection of Inconsistent Android Behavior with VeneerTrace”</em> 제목으로 논문 작성 중입니다.">
-    Runtime analysis work on Android applications whose observable behavior diverges from what they declare. The approach detects that inconsistency on the device itself at runtime, rather than from static artifacts alone. Manuscript <strong>in progress</strong> for IEEE Transactions on Mobile Computing: <em>“Actions Speak Louder Than Words: On-Device Runtime Detection of Inconsistent Android Behavior with VeneerTrace.”</em>
-    </p>
-    <div class="pf-project__tags">
-      <span class="tag tag--accent">IEEE TMC (in progress)</span>
-      <span class="tag">Android</span>
-      <span class="tag">Runtime Analysis</span>
-      <span class="tag">Behavioral Analysis</span>
-      <span class="tag">On-Device</span>
-    </div>
-  </div>
-
   <!-- ===== AI Agent manipulation ===== -->
   <div class="pf-project" id="ai-agent">
     <div class="pf-project__header">

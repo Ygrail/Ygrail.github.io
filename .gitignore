@@ -4,3 +4,6 @@ _site
 .sass-cache
 .bundle
 vendor/bundle
+
+# Private: VeneerTrace content held out for blind submission
+_private/
